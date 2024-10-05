@@ -1,0 +1,570 @@
+2024-10-05T01:13:26.517+02:00  INFO 50911 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 50911 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T01:13:26.519+02:00  INFO 50911 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T01:13:26.812+02:00  INFO 50911 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T01:13:26.821+02:00  INFO 50911 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-10-05T01:13:27.062+02:00  INFO 50911 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T01:13:27.072+02:00  INFO 50911 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T01:13:27.072+02:00  INFO 50911 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T01:13:27.095+02:00  INFO 50911 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T01:13:27.096+02:00  INFO 50911 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 537 ms
+2024-10-05T01:13:27.166+02:00  INFO 50911 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T01:13:27.193+02:00  INFO 50911 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T01:13:27.215+02:00  INFO 50911 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T01:13:27.394+02:00  INFO 50911 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T01:13:27.412+02:00  INFO 50911 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T01:13:27.547+02:00  INFO 50911 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23f60b7d
+2024-10-05T01:13:27.548+02:00  INFO 50911 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T01:13:27.595+02:00  WARN 50911 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T01:13:27.753+02:00  INFO 50911 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T01:13:27.755+02:00  INFO 50911 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T01:13:27.786+02:00  WARN 50911 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T01:13:27.986+02:00  INFO 50911 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T01:13:27.992+02:00  INFO 50911 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.756 seconds (process running for 2.168)
+2024-10-05T03:34:15.315+02:00  INFO 50911 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:34:15.318+02:00  INFO 50911 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:34:15.321+02:00  INFO 50911 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:34:19.304+02:00  INFO 86546 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 86546 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:34:19.305+02:00  INFO 86546 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:34:19.674+02:00  INFO 86546 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:34:19.685+02:00  INFO 86546 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:34:19.913+02:00  INFO 86546 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:34:19.920+02:00  INFO 86546 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:34:19.920+02:00  INFO 86546 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:34:19.964+02:00  INFO 86546 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:34:19.964+02:00  INFO 86546 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 636 ms
+2024-10-05T03:34:20.037+02:00  INFO 86546 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:34:20.064+02:00  INFO 86546 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:34:20.080+02:00  INFO 86546 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:34:20.231+02:00  INFO 86546 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:34:20.246+02:00  INFO 86546 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:34:20.342+02:00  INFO 86546 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7afe0e67
+2024-10-05T03:34:20.343+02:00  INFO 86546 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:34:20.370+02:00  WARN 86546 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:34:20.528+02:00  INFO 86546 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:34:20.531+02:00  INFO 86546 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:34:20.551+02:00  WARN 86546 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:34:20.770+02:00  INFO 86546 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:34:20.775+02:00  INFO 86546 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.722 seconds (process running for 2.131)
+2024-10-05T03:35:32.407+02:00  INFO 86546 --- [Gstudent] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-05T03:35:32.407+02:00  INFO 86546 --- [Gstudent] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-05T03:35:32.408+02:00  INFO 86546 --- [Gstudent] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-05T03:35:32.459+02:00 ERROR 86546 --- [Gstudent] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-10-05T03:35:32.461+02:00 ERROR 86546 --- [Gstudent] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing [ErrorPage[errorCode=0, location=/error]]
+
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-10-05T03:36:25.664+02:00  INFO 86546 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:36:25.665+02:00  INFO 86546 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:36:25.675+02:00  INFO 86546 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:36:27.178+02:00  INFO 87325 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 87325 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:36:27.179+02:00  INFO 87325 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:36:27.555+02:00  INFO 87325 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:36:27.565+02:00  INFO 87325 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:36:27.803+02:00  INFO 87325 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:36:27.816+02:00  INFO 87325 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:36:27.816+02:00  INFO 87325 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:36:27.846+02:00  INFO 87325 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:36:27.846+02:00  INFO 87325 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 643 ms
+2024-10-05T03:36:27.918+02:00  INFO 87325 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:36:27.940+02:00  INFO 87325 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:36:27.954+02:00  INFO 87325 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:36:28.083+02:00  INFO 87325 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:36:28.097+02:00  INFO 87325 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:36:28.176+02:00  INFO 87325 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c8ff67
+2024-10-05T03:36:28.177+02:00  INFO 87325 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:36:28.202+02:00  WARN 87325 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:36:28.345+02:00  INFO 87325 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:36:28.348+02:00  INFO 87325 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:36:28.368+02:00  WARN 87325 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:36:28.567+02:00  INFO 87325 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:36:28.572+02:00  INFO 87325 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.705 seconds (process running for 2.057)
+2024-10-05T03:39:53.910+02:00  INFO 87325 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:39:53.912+02:00  INFO 87325 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:39:53.919+02:00  INFO 87325 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:39:55.659+02:00  INFO 88280 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 88280 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:39:55.662+02:00  INFO 88280 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:39:55.968+02:00  INFO 88280 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:39:55.979+02:00  INFO 88280 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:39:56.253+02:00  INFO 88280 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:39:56.260+02:00  INFO 88280 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:39:56.260+02:00  INFO 88280 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:39:56.300+02:00  INFO 88280 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:39:56.300+02:00  INFO 88280 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2024-10-05T03:39:56.374+02:00  INFO 88280 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:39:56.397+02:00  INFO 88280 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:39:56.411+02:00  INFO 88280 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:39:56.540+02:00  INFO 88280 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:39:56.553+02:00  INFO 88280 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:39:57.630+02:00  WARN 88280 --- [Gstudent] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
+2024-10-05T03:39:57.631+02:00 ERROR 88280 --- [Gstudent] [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'school-gestion'
+2024-10-05T03:39:57.633+02:00  WARN 88280 --- [Gstudent] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.hibernate.exception.SQLGrammarException: unable to obtain isolated JDBC connection [Unknown database 'school-gestion'] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.wane.Gstudent.GstudentApplication.main(GstudentApplication.java:10) ~[classes/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'school-gestion'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 35 common frames omitted
+
+2024-10-05T03:39:57.651+02:00  WARN 88280 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:39:57.793+02:00  INFO 88280 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:39:57.795+02:00  INFO 88280 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:39:57.815+02:00  WARN 88280 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:39:58.093+02:00  INFO 88280 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:39:58.099+02:00  INFO 88280 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 2.8 seconds (process running for 3.191)
+2024-10-05T03:41:29.555+02:00  INFO 88280 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:41:30.998+02:00  INFO 89182 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 89182 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:41:31.000+02:00  INFO 89182 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:41:31.275+02:00  INFO 89182 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:41:31.284+02:00  INFO 89182 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:41:31.510+02:00  INFO 89182 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:41:31.517+02:00  INFO 89182 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:41:31.517+02:00  INFO 89182 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:41:31.546+02:00  INFO 89182 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:41:31.546+02:00  INFO 89182 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 524 ms
+2024-10-05T03:41:31.613+02:00  INFO 89182 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:41:31.632+02:00  INFO 89182 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:41:31.645+02:00  INFO 89182 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:41:31.775+02:00  INFO 89182 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:41:31.790+02:00  INFO 89182 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:41:31.872+02:00  INFO 89182 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21733cbe
+2024-10-05T03:41:31.873+02:00  INFO 89182 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:41:31.899+02:00  WARN 89182 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:41:32.055+02:00  INFO 89182 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:41:32.057+02:00  INFO 89182 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:41:32.077+02:00  WARN 89182 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:41:32.268+02:00  INFO 89182 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:41:32.274+02:00  INFO 89182 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.598 seconds (process running for 1.953)
+2024-10-05T03:51:35.035+02:00  INFO 89182 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:51:35.039+02:00  INFO 89182 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:51:35.046+02:00  INFO 89182 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:51:38.945+02:00  INFO 91881 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 91881 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:51:38.948+02:00  INFO 91881 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:51:39.475+02:00  INFO 91881 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:51:39.488+02:00  INFO 91881 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:51:39.786+02:00  INFO 91881 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:51:39.795+02:00  INFO 91881 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:51:39.795+02:00  INFO 91881 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:51:39.824+02:00  INFO 91881 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:51:39.824+02:00  INFO 91881 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2024-10-05T03:51:39.913+02:00  INFO 91881 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.16.0 by Redgate
+2024-10-05T03:51:39.913+02:00  INFO 91881 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2024-10-05T03:51:39.913+02:00  INFO 91881 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : 
+2024-10-05T03:51:39.918+02:00  INFO 91881 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:51:40.001+02:00  INFO 91881 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a4aadf8
+2024-10-05T03:51:40.003+02:00  INFO 91881 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:51:40.009+02:00  WARN 91881 --- [Gstudent] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+2024-10-05T03:51:40.010+02:00  INFO 91881 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:51:40.016+02:00  INFO 91881 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:51:40.018+02:00  INFO 91881 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-05T03:51:40.026+02:00  INFO 91881 --- [Gstudent] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-05T03:51:40.036+02:00 ERROR 91881 --- [Gstudent] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:326) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.wane.Gstudent.GstudentApplication.main(GstudentApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 10 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Unsupported Database: MySQL 8.0
+	at org.flywaydb.core.internal.database.DatabaseTypeRegister.getDatabaseTypeForConnection(DatabaseTypeRegister.java:105) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:139) ~[flyway-core-9.16.0.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.3.4.jar:3.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 17 common frames omitted
+
+2024-10-05T03:52:14.023+02:00  INFO 92271 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 92271 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:52:14.025+02:00  INFO 92271 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:52:14.360+02:00  INFO 92271 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:52:14.372+02:00  INFO 92271 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:52:14.640+02:00  INFO 92271 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:52:14.651+02:00  INFO 92271 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:52:14.651+02:00  INFO 92271 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:52:14.683+02:00  INFO 92271 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:52:14.684+02:00  INFO 92271 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 635 ms
+2024-10-05T03:52:14.760+02:00  INFO 92271 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.16.0 by Redgate
+2024-10-05T03:52:14.760+02:00  INFO 92271 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2024-10-05T03:52:14.760+02:00  INFO 92271 --- [Gstudent] [main] o.f.c.internal.license.VersionPrinter    : 
+2024-10-05T03:52:14.764+02:00  INFO 92271 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:52:14.870+02:00  INFO 92271 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@590765c4
+2024-10-05T03:52:14.875+02:00  INFO 92271 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:52:14.892+02:00  WARN 92271 --- [Gstudent] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+2024-10-05T03:52:14.892+02:00  INFO 92271 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:52:14.899+02:00  INFO 92271 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:52:14.903+02:00  INFO 92271 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-05T03:52:14.918+02:00  INFO 92271 --- [Gstudent] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-05T03:52:14.936+02:00 ERROR 92271 --- [Gstudent] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:326) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.wane.Gstudent.GstudentApplication.main(GstudentApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 8.0
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 10 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Unsupported Database: MySQL 8.0
+	at org.flywaydb.core.internal.database.DatabaseTypeRegister.getDatabaseTypeForConnection(DatabaseTypeRegister.java:105) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:75) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140) ~[flyway-core-9.16.0.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:139) ~[flyway-core-9.16.0.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.3.4.jar:3.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 17 common frames omitted
+
+2024-10-05T03:52:34.870+02:00  INFO 92441 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 92441 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:52:34.871+02:00  INFO 92441 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:52:35.239+02:00  INFO 92441 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:52:35.253+02:00  INFO 92441 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:52:35.503+02:00  INFO 92441 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:52:35.510+02:00  INFO 92441 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:52:35.510+02:00  INFO 92441 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:52:35.537+02:00  INFO 92441 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:52:35.537+02:00  INFO 92441 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2024-10-05T03:52:35.615+02:00  INFO 92441 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:52:35.652+02:00  INFO 92441 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:52:35.677+02:00  INFO 92441 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:52:35.882+02:00  INFO 92441 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:52:35.898+02:00  INFO 92441 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:52:35.979+02:00  INFO 92441 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c758a2d
+2024-10-05T03:52:35.981+02:00  INFO 92441 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:52:36.012+02:00  WARN 92441 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:52:36.192+02:00  INFO 92441 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:52:36.195+02:00  INFO 92441 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:52:36.216+02:00  WARN 92441 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:52:36.457+02:00  INFO 92441 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:52:36.463+02:00  INFO 92441 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.856 seconds (process running for 2.518)
+2024-10-05T03:54:20.149+02:00  INFO 92441 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:54:20.151+02:00  INFO 92441 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:54:20.157+02:00  INFO 92441 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:54:22.104+02:00  INFO 93010 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 93010 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T03:54:22.106+02:00  INFO 93010 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:54:22.446+02:00  INFO 93010 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:54:22.456+02:00  INFO 93010 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:54:22.713+02:00  INFO 93010 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:54:22.720+02:00  INFO 93010 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:54:22.720+02:00  INFO 93010 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:54:22.746+02:00  INFO 93010 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:54:22.746+02:00  INFO 93010 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 614 ms
+2024-10-05T03:54:22.823+02:00  INFO 93010 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:54:22.844+02:00  INFO 93010 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:54:22.860+02:00  INFO 93010 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:54:23.001+02:00  INFO 93010 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:54:23.016+02:00  INFO 93010 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:54:23.102+02:00  INFO 93010 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c758a2d
+2024-10-05T03:54:23.103+02:00  INFO 93010 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:54:23.144+02:00  WARN 93010 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T03:54:23.319+02:00  INFO 93010 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:54:23.322+02:00  INFO 93010 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:54:23.344+02:00  WARN 93010 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:54:23.602+02:00  INFO 93010 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:54:23.613+02:00  INFO 93010 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 1.855 seconds (process running for 2.604)
+2024-10-05T04:12:52.947+02:00  INFO 93010 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:12:52.963+02:00  INFO 93010 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T04:12:53.045+02:00  INFO 93010 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T04:21:19.984+02:00  INFO 6530 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 6530 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T04:21:19.986+02:00  INFO 6530 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T04:21:20.579+02:00  INFO 6530 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T04:21:20.592+02:00  INFO 6530 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T04:21:20.946+02:00  INFO 6530 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T04:21:20.955+02:00  INFO 6530 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T04:21:20.955+02:00  INFO 6530 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T04:21:20.988+02:00  INFO 6530 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T04:21:20.989+02:00  INFO 6530 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2024-10-05T04:21:21.088+02:00  INFO 6530 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T04:21:21.125+02:00  INFO 6530 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T04:21:21.150+02:00  INFO 6530 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T04:21:21.361+02:00  INFO 6530 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T04:21:21.391+02:00  INFO 6530 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T04:21:21.524+02:00  INFO 6530 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fba0dac
+2024-10-05T04:21:21.526+02:00  INFO 6530 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T04:21:21.558+02:00  WARN 6530 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T04:21:21.798+02:00  INFO 6530 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T04:21:21.802+02:00  INFO 6530 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:21:21.831+02:00  WARN 6530 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T04:21:22.147+02:00  INFO 6530 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T04:21:22.155+02:00  INFO 6530 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 2.819 seconds (process running for 3.59)
+2024-10-05T04:25:13.362+02:00  INFO 6530 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:25:13.365+02:00  INFO 6530 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T04:25:13.378+02:00  INFO 6530 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T04:25:15.605+02:00  INFO 7617 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 7617 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T04:25:15.607+02:00  INFO 7617 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T04:25:16.205+02:00  INFO 7617 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T04:25:16.226+02:00  INFO 7617 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-10-05T04:25:16.676+02:00  INFO 7617 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T04:25:16.693+02:00  INFO 7617 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T04:25:16.693+02:00  INFO 7617 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T04:25:16.749+02:00  INFO 7617 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T04:25:16.750+02:00  INFO 7617 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1100 ms
+2024-10-05T04:25:16.965+02:00  INFO 7617 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T04:25:17.046+02:00  INFO 7617 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T04:25:17.079+02:00  INFO 7617 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T04:25:17.309+02:00  INFO 7617 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T04:25:17.327+02:00  INFO 7617 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T04:25:17.451+02:00  INFO 7617 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5be51aa
+2024-10-05T04:25:17.453+02:00  INFO 7617 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T04:25:17.490+02:00  WARN 7617 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T04:25:17.491+02:00  WARN 7617 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-05T04:25:17.764+02:00  INFO 7617 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T04:25:17.767+02:00  INFO 7617 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:25:17.803+02:00  WARN 7617 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T04:25:18.107+02:00  INFO 7617 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T04:25:18.117+02:00  INFO 7617 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 3.02 seconds (process running for 3.697)
+2024-10-05T04:29:22.277+02:00  INFO 7617 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:29:22.282+02:00  INFO 7617 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T04:29:22.300+02:00  INFO 7617 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T04:29:26.075+02:00  INFO 11273 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 11273 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T04:29:26.080+02:00  INFO 11273 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T04:29:26.662+02:00  INFO 11273 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T04:29:26.673+02:00  INFO 11273 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-10-05T04:29:27.060+02:00  INFO 11273 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T04:29:27.089+02:00  INFO 11273 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T04:29:27.090+02:00  INFO 11273 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T04:29:27.137+02:00  INFO 11273 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T04:29:27.138+02:00  INFO 11273 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+2024-10-05T04:29:27.228+02:00  INFO 11273 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T04:29:27.258+02:00  INFO 11273 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T04:29:27.292+02:00  INFO 11273 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T04:29:27.495+02:00  INFO 11273 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T04:29:27.519+02:00  INFO 11273 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T04:29:27.644+02:00  INFO 11273 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de3b052
+2024-10-05T04:29:27.646+02:00  INFO 11273 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T04:29:27.683+02:00  WARN 11273 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T04:29:27.684+02:00  WARN 11273 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-05T04:29:27.904+02:00  INFO 11273 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T04:29:27.907+02:00  INFO 11273 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:29:27.938+02:00  WARN 11273 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T04:29:28.262+02:00  INFO 11273 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T04:29:28.271+02:00  INFO 11273 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 2.787 seconds (process running for 3.587)
+2024-10-05T04:31:41.035+02:00  INFO 11273 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:31:41.039+02:00  INFO 11273 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T04:31:41.051+02:00  INFO 11273 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T04:31:44.147+02:00  INFO 12038 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 12038 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T04:31:44.152+02:00  INFO 12038 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T04:31:44.803+02:00  INFO 12038 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T04:31:44.819+02:00  INFO 12038 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-10-05T04:31:45.226+02:00  INFO 12038 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T04:31:45.238+02:00  INFO 12038 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T04:31:45.238+02:00  INFO 12038 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T04:31:45.278+02:00  INFO 12038 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T04:31:45.278+02:00  INFO 12038 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2024-10-05T04:31:45.396+02:00  INFO 12038 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T04:31:45.428+02:00  INFO 12038 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T04:31:45.455+02:00  INFO 12038 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T04:31:45.670+02:00  INFO 12038 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T04:31:45.689+02:00  INFO 12038 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T04:31:45.799+02:00  INFO 12038 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@328e4ec2
+2024-10-05T04:31:45.801+02:00  INFO 12038 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T04:31:45.835+02:00  WARN 12038 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T04:31:45.836+02:00  WARN 12038 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-05T04:31:46.722+02:00  INFO 12038 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T04:31:47.698+02:00  INFO 12038 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:31:47.738+02:00  WARN 12038 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T04:31:48.364+02:00  INFO 12038 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T04:31:48.376+02:00  INFO 12038 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 4.673 seconds (process running for 5.375)
+2024-10-05T04:45:02.925+02:00  INFO 12038 --- [Gstudent] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:45:02.931+02:00  INFO 12038 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T04:45:02.951+02:00  INFO 12038 --- [Gstudent] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T04:45:05.360+02:00  INFO 15124 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Starting GstudentApplication using Java 17.0.12 with PID 15124 (/home/diop/Documents/Gstudent/target/classes started by diop in /home/diop/Documents/Gstudent)
+2024-10-05T04:45:05.367+02:00  INFO 15124 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T04:45:05.924+02:00  INFO 15124 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T04:45:05.939+02:00  INFO 15124 --- [Gstudent] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-10-05T04:45:06.309+02:00  INFO 15124 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T04:45:06.317+02:00  INFO 15124 --- [Gstudent] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T04:45:06.318+02:00  INFO 15124 --- [Gstudent] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T04:45:06.378+02:00  INFO 15124 --- [Gstudent] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T04:45:06.379+02:00  INFO 15124 --- [Gstudent] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2024-10-05T04:45:06.478+02:00  INFO 15124 --- [Gstudent] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T04:45:06.504+02:00  INFO 15124 --- [Gstudent] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T04:45:06.539+02:00  INFO 15124 --- [Gstudent] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T04:45:06.696+02:00  INFO 15124 --- [Gstudent] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T04:45:06.710+02:00  INFO 15124 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T04:45:06.822+02:00  INFO 15124 --- [Gstudent] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52c46334
+2024-10-05T04:45:06.824+02:00  INFO 15124 --- [Gstudent] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T04:45:06.854+02:00  WARN 15124 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-05T04:45:06.855+02:00  WARN 15124 --- [Gstudent] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-05T04:45:07.589+02:00  INFO 15124 --- [Gstudent] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T04:45:08.744+02:00  INFO 15124 --- [Gstudent] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T04:45:08.775+02:00  WARN 15124 --- [Gstudent] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T04:45:09.076+02:00  INFO 15124 --- [Gstudent] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T04:45:09.085+02:00  INFO 15124 --- [Gstudent] [main] com.wane.Gstudent.GstudentApplication    : Started GstudentApplication in 4.214 seconds (process running for 4.985)
