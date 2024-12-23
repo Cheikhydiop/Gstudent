@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: gestion-dette_mysql_1
+    environment:
+      MYSQL_ROOT_PASSWORD: Diop-1234
+      MYSQL_DATABASE: schoolGestion
+    ports:
+      - "3307:3306"
+    networks:
+      - my_network
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -u root -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  app:
+    image: diop/gstudent:latest
+    container_name: app_conteneur
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_APPLICATION_NAME: Gstudent
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/schoolGestion?useSSL=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Diop-1234
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: "true"
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
+      SERVER_ERROR_WHITELABEL_ENABLED: "false"
+      SPRING_JPA_OPEN_IN_VIEW: "false"
+      LOGGING_LEVEL_ROOT: INFO
+      LOGGING_LEVEL_COM_DETTE: DEBUG
+      LOGGING_FILE_NAME: logs/app.log
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_SECURITY: DEBUG
+      JWT_SECRET: Diop1234567
+      SPRING_MAIL_HOST: smtp.gmail.com
+      SPRING_MAIL_PORT: 587
+      SPRING_MAIL_USERNAME: 1000dioop@gmail.com
+      SPRING_MAIL_PASSWORD: cioeukjefduntkaa
+      SPRING_MAIL_PROPERTIES_MAIL_SMTP_AUTH: "true"
+      SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_ENABLE: "true"
+      MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "*"
+      SERVER_PORT: 8089
+      LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB: DEBUG
+      LOGGING_LEVEL_COM_WANE_WEB_CONTROLLER: DEBUG
+      LOGGING_PATTERN_CONSOLE: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+      LOGGING_PATTERN_FILE: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+      SPRINGDOC_API_DOCS_ENABLED: "true"
+      SPRINGDOC_SWAGGER_UI_ENABLED: "true"
+      SPRINGDOC_API_DOCS_PATH: /v3/api-docs
+      SPRINGDOC_SWAGGER_UI_PATH: /swagger-ui.html
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
