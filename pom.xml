@@ -155,10 +155,6 @@
 			<version>1.6.2</version>
 		</dependency>
 
-
-
-
-
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
