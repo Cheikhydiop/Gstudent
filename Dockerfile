@@ -1,4 +1,4 @@
-docker tag my-image:1.0.0 diop/gstudent:latestdocker tag my-image:1.0.0 diop/gstudent:latestdocker tag my-image:1.0.0 diop/gstudent:latestFROM maven:3.8.4-openjdk-17 AS build
+FROM maven:3.8.4-openjdk-17 AS build
 
 # Assigne un répertoire de travail pour la construction
 WORKDIR /app
