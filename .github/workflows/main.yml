@@ -31,7 +31,7 @@ jobs:
           context: .
           file: Dockerfile  # Utiliser 'file' au lieu de 'dockerfile'
           push: false
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gstudent:latest,${{ secrets.DOCKER_HUB_USERNAME }}/gstudent:${{ github.run_id }}-$(date +%y)
+          tags: ndigueul/gstudent:latest,ndigueul/gstudent:${{ github.run_id }}-$(date +%y+m+h+h+,,mn+s)
 
       # Connexion à Docker Hub
       - name: Login to Docker Hub
@@ -47,4 +47,4 @@ jobs:
           context: .
           file: Dockerfile  # Utiliser 'file' au lieu de 'dockerfile'
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gstudent:latest,${{ secrets.DOCKER_HUB_USERNAME }}/gstudent:${{ github.run_id }}-$(date +%y)
+          tags: ndigueul/gstudent:latest,ndigueul/gstudent:${{ github.run_id }}-$(date +%y+m+h+h+,,mn+s)
